@@ -1,17 +1,23 @@
 {
-    "name":        "determine/composer-test",
-    "description": "Composer test",
-    "authors":     [
+    "name":         "determine/composer-test",
+    "description":  "Composer test",
+    "authors":      [
         {
             "name":  "Jerry Ablan",
             "email": "jerryablan@gmail.com"
         }
     ],
-    "keywords":    [
+    "keywords":     [
         "utility"
     ],
-    "license":     "proprietary",
-    "require":     {
+    "license":      "proprietary",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:Determine-Corp/docusign-php-client.git"
+        }
+    ],
+    "require":      {
         "php":                   ">=5.5.9",
         "docusign/esign-client": "^2.0"
     }
