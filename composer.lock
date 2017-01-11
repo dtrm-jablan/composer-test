@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "097a026abdaeaf5d71aac14df0487700",
+    "content-hash": "05899b1022b3a21ed83863b19aa6f4ac",
     "packages": [
         {
             "name": "docusign/esign-client",
